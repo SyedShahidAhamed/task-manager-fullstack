@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  border: 0;
+}
+
+.btn.w-100 {
+  width: 100%;
+}
