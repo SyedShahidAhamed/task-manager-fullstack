@@ -1,9 +1,7 @@
 package com.example.taskmanager.controller;
 
-import com.example.taskmanager.entity.Task;
-import com.example.taskmanager.service.TaskService;
+import java.util.List;
 
-import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -16,11 +14,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+import com.example.taskmanager.entity.Task;
+import com.example.taskmanager.service.TaskService;
+
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://task-manager-frontend-f7tl.onrender.com")
 public class TaskController {
 
     private final TaskService taskService;
