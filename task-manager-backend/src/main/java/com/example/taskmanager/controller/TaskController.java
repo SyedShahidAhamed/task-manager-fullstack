@@ -21,7 +21,10 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "https://task-manager-frontend-f7tl.onrender.com")
+@CrossOrigin(origins = {
+    "http://localhost:5173",
+    "https://task-manager-frontend-f7tl.onrender.com"
+})
 public class TaskController {
 
     private final TaskService taskService;
