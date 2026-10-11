@@ -1,4 +1,4 @@
-# Full Stack Task Manager
+# Full-Stack-Task Manager
 
 This project is a beginner-friendly internship-style task manager built with Java Spring Boot, React, Vite, and MySQL.
 
